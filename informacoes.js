@@ -11,7 +11,7 @@ async function vizualizarInformacoes() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `melhores jogos<span>3°C</span> de <span>${quantidade_alunos} alunos</span> 2024<span>${numero_votos} </span>  <span></span><span>${numero_aula_Victor}</span>, <span>${numero_aula_Mazza}</span>. <br><span>${porcentagem_Victor}%</span>
+    paragrafo.innerHTML = `melhores jogos<span>3°C</span> de <span>${quantidade_jogos} alunos</span> 2024<span>${numero_votos} </span>  <span></span><span>${numero_aula_Victor}</span>, <span>${numero_aula_Mazza}</span>. <br><span>${porcentagem_Victor}%</span>
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
